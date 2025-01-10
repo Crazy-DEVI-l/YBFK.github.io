@@ -1,0 +1,119 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background: #000;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.header-content h1 {
+    font-size: 2rem;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.hero {
+    background: url('https://images.pexels.com/photos/157675/fashion-men-s-individuality-black-and-white-157675.jpeg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    height: 700px; /* Increase the height */
+    display: flex; /* Centers text vertically */
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hero-text h2 {
+    font-size: 2.5rem;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 2rem 1rem;
+    justify-content: center;
+}
+
+.project {
+    flex: 1 1 300px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.project img {
+    width: 100%; /* Ensures the image fills its container horizontally */
+    height: 500px; /* Increase the height to make the image larger */
+    object-fit: cover; /* Ensures the image scales properly */
+    border-radius: 8px; /* Optional: Adds rounded corners for style */
+}
+
+
+.project h3 {
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+}
+
+.project p {
+    padding: 0 1rem 1rem;
+}
+
+.about {
+    background: #eaeaea;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.about h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.footer-content p {
+    margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero-text h2 {
+        font-size: 2rem;
+    }
+
+    .project img {
+        height: 150px;
+    }
+}
