@@ -5,3 +5,6 @@
 <p>I'm hosted with GitHub Pages.</p>
 </body>
 </html>
+
+<h2>Check out my CodePen project:</h2>
+<a href="https://codepen.io/Jinyun/pen/jENZoMV" target="_blank">View my CodePen project</a>
